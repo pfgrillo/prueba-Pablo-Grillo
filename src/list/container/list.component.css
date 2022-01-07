@@ -1,0 +1,64 @@
+.container {
+  overflow: auto;
+  height: 100%;
+}
+.header {
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: auto auto;
+  width: 100%;
+  min-width: 700px;
+  background: #e8edff;
+}
+.title {
+  padding: 20px;
+  align-self: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #11161f;
+}
+.position-sorter {
+  justify-self: flex-end;
+  height: 60px;
+  padding: 20px;
+}
+.positions-container {
+  background: #f5f7ff;
+  height: 100%;
+  padding-top: 25px;
+}
+.positions-content {
+  background: #f5f7ff;
+  width: 100%;
+  min-width: 700px;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+}
+.card-title{
+  margin-bottom: 15px;
+  font-weight: normal;
+  font-size: 20px;
+  color: #11161f;
+}
+.position-container {
+  display: grid;
+  grid-template-rows: auto ;
+  grid-template-columns: auto auto;
+}
+.position-item {
+  background: #fafafa;
+  display: inline-flex;
+  padding: 5px;
+  border: 2px solid lightslategrey;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+.icon {
+  margin-right: 5px;
+}
+.edit-button {
+  justify-self: flex-end;
+  margin-left: 10px;
+
+}

@@ -1,0 +1,19 @@
+<h1 mat-dialog-title>Editar posición</h1>
+<div mat-dialog-content class="dialog-content">
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="form-content" *ngFor="let control of ['name', 'technology', 'pdf']">
+      <mat-form-field appearence="outline">
+        <mat-label>{{getTitle(control)}}</mat-label>
+        <input matInput [formControl]="getControl(control)">
+        <mat-error *ngIf="getInvalidControl(control)">Obligatorio</mat-error>
+      </mat-form-field>
+    </div>
+    <div mat-dialog-actions style="justify-content: center;">
+      <button mat-button
+              color="primary"
+              type="submit">Guardar</button>
+      <button mat-button color="warn" (click)="closeDialog()">Salir</button>
+    </div>
+  </form>
+</div>
+

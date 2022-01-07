@@ -1,0 +1,159 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "position 1",
+            "technology": "JavaScript",
+            "candidates": 5,
+            "pdf": null,
+            "category": 3
+        },
+        {
+            "id": 2,
+            "name": "position 2",
+            "technology": "PHP",
+            "candidates": 3,
+            "pdf": null,
+            "category": 3
+        },
+        {
+            "id": 3,
+            "name": "position 3",
+            "technology": "Python",
+            "candidates": 5,
+            "pdf": null,
+            "category": 1
+        },
+        {
+            "id": 4,
+            "name": "position 4",
+            "technology": "Rust",
+            "candidates": 8,
+            "pdf": null,
+            "category": 2
+        },
+        {
+            "id": 5,
+            "name": "position 5",
+            "technology": "PHP",
+            "candidates": 12,
+            "pdf": null,
+            "category": 3
+        },
+        {
+            "id": 6,
+            "name": "position 6",
+            "technology": "PHP",
+            "candidates": 15,
+            "pdf": null,
+            "category": 1
+        },
+        {
+            "id": 7,
+            "name": "position 7",
+            "technology": "JavaScript",
+            "candidates": 1,
+            "pdf": null,
+            "category": 1
+        },
+        {
+            "id": 8,
+            "name": "position 8",
+            "technology": "JavaScript",
+            "candidates": 0,
+            "pdf": null,
+            "category": 1
+        },
+        {
+            "id": 9,
+            "name": "position 9",
+            "technology": "Rust",
+            "candidates": 1,
+            "pdf": null,
+            "category": 3
+        },
+        {
+            "id": 10,
+            "name": "position 10",
+            "technology": "PHP",
+            "candidates": 3,
+            "pdf": null,
+            "category": 1
+        },
+        {
+            "id": 11,
+            "name": "position 11",
+            "technology": "JavaScript",
+            "candidates": 9,
+            "pdf": null,
+            "category": 2
+        },
+        {
+            "id": 12,
+            "name": "position 12",
+            "technology": "JavaScript",
+            "candidates": 7,
+            "pdf": null,
+            "category": 2
+        },
+        {
+            "id": 13,
+            "name": "position 13",
+            "technology": "Rust",
+            "candidates": 13,
+            "pdf": null,
+            "category": 2
+        },
+        {
+            "id": 14,
+            "name": "position 14",
+            "technology": "JavaScript",
+            "candidates": 2,
+            "pdf": null,
+            "category": 3
+        },
+        {
+            "id": 15,
+            "name": "position 15",
+            "technology": "Python",
+            "candidates": 7,
+            "pdf": null,
+            "category": 1
+        },
+        {
+            "id": 16,
+            "name": "position 16",
+            "technology": "Python",
+            "candidates": 4,
+            "pdf": null,
+            "category": 1
+        },
+        {
+            "id": 17,
+            "name": "position 17",
+            "technology": "Python",
+            "candidates": 5,
+            "pdf": null,
+            "category": 2
+        },
+        {
+            "id": 18,
+            "name": "position 18",
+            "technology": "Python",
+            "candidates": 8,
+            "pdf": null,
+            "category": 3
+        },
+        {
+            "id": 19,
+            "name": "position 19",
+            "technology": "PHP",
+            "candidates": 15,
+            "pdf": null,
+            "category": 1
+        }
+    ],
+    "meta": {
+        "error": null
+    }
+}

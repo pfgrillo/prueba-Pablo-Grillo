@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="header">
+    <div class="title">Listado de posiciones</div>
+    <div class="position-sorter">
+      <mat-form-field appearance="outline">
+        <mat-label>Ordenar por</mat-label>
+        <mat-select (selectionChange)="orderPositions($event)">
+          <mat-option style="font-style: italic" [value]="'id'">Reestablecer orden</mat-option>
+          <mat-option [value]="'name'">Nombre de la posición</mat-option>
+          <mat-option [value]="'technology'">Tecnología</mat-option>
+          <mat-option [value]="'candidates'">Candidatos</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+  </div>
+  <div class="positions-container">
+    <div class="positions-content">
+      <ng-container *ngFor="let category of [ECategory.NEW, ECategory.ACTIVE, ECategory.NONACTIVE]">
+        <mat-card class="positions-chart">
+          <mat-card-title class="card-title">{{category}}</mat-card-title>
+          <div *ngFor="let position of getCategory(category)" class="position-container">
+            <div class="position-item">
+              <div class="icon" *ngIf="category!==ECategory.NONACTIVE" [innerHTML]="'\u270D'"></div>
+              <div class="icon" *ngIf="category===ECategory.NONACTIVE" [innerHTML]="'\uD83D\uDD12'"></div>
+              <div>{{position.name | titlecase}} - {{position.technology}} - {{position.candidates}}</div>
+            </div>
+            <button mat-button color="accent"
+                    class="edit-button"
+                    *ngIf="category!==ECategory.NONACTIVE"
+                    (click)="openDialog(position)">Editar
+            </button>
+          </div>
+        </mat-card>
+      </ng-container>
+    </div>
+  </div>
+</div>
